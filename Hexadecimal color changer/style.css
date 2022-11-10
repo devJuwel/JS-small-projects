@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.colorName{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px 50px;
+    font-size: 25px;
+   
+    border-radius: 5px;
+}
+.color-changer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+button#background-color-change {
+    border: none;
+    font-size: 17px;
+    padding: 12px 30px ;
+    color: aliceblue;
+    background-color: rgb(2, 73, 5);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+}
